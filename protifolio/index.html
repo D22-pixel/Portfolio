@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Portiforio</title>
+
+	<link rel="stylesheet" type="text/css" href="style.css">
+
+	<!-- Bootstrap -->
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+	<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy" crossorigin="anonymous"></script>
+
+	<!-- Font Awesome / ícones -->
+	<script src="https://kit.fontawesome.com/152920176d.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+<!--Colocar dark mode no código html -->
+
+<script src="https://cdn.jsdelivr.net/npm/darkmode-js@1.3.4/lib/darkmode-js.min.js"></script>
+
+<script>
+  var options = {
+  bottom: '64px', // default: '32px'
+  right: 'unset', // default: '32px'
+  left: '32px', // default: 'unset'
+  time: '0.5s', // default: '0.3s'
+  mixColor: '#fff', // default: '#fff'
+  backgroundColor: '#fff',  // default: '#fff'
+  buttonColorDark: '#100f2c',  // default: '#100f2c'
+  buttonColorLight: '#fff', // default: '#fff'
+  saveInCookies: false, // default: true,
+  label: '🌓' // default: ''
+}
+const darkmode = new Darkmode(options);
+darkmode.showWidget();
+</script>
+
+	<!-- Menu Fixado -->
+	<nav class="navbar navbar-expand-lg fixed-top navbarScroll">
+		<div class="container">
+			<a href="#" class="navbar-brand">Portfólio</a>
+			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button>
+        </div>
+			<div class="collapse navbar-collapse" id="navbarSupportedContent">
+				<ul class="navbar-nav ms-auto">
+					<li class="nav-item active"><a class="nav-link" href="#inicio">Início</a></li>
+					<li class="nav-item"><a class="nav-link" href="#sobre">Sobre</a></li>
+					<li class="nav-item"><a class="nav-link" href="#servicos">Serviços</a></li>
+					<li class="nav-item"><a class="nav-link" href="#portfolio">Portfólio</a></li>
+					<li class="nav-item"><a class="nav-link" href="#contato">Contato</a></li>
+				</ul>			
+			</div>
+		</div>
+	</nav>
+
+	<!-- Hero Image / Hero Header -->
+	<section class="bgimage shadow" id="inicio">
+		<div class="container-fluid">
+			<div class="row">
+				<div class="glass">
+					<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 hero-text">
+						<h2 class="hero_titulo">Olá, me chamo Denise</h2>
+						<p class="hero_desc">Estudante de FrontEnd em Porto Alegre</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- Seção Sobre -->
+	<section class="shadow" id="sobre">
+		<div class="container mt-4 pt-4">
+			<h1 class="text-center">Sobre</h1>
+
+			<div class="row mt-4">
+				<!-- Imagem -->
+				<div class="col-lg-4">
+					<img src="img/logo.jpg" class="imagemSobre">
+				</div>
+
+				<!-- infos -->
+				<div class="col-lg-8">
+					<p>Formada em técnico de informática pelo Senac/RS.</p>
+					<div class="row mt-3">
+						<ul>
+							<li>Nome: Denise Saldanha</li>
+							<li>Idade: 40</li>
+							<li>Ocupação: Técnica em informática</li>
+						</ul>
+					</div>
+					<div class="row mt-3">
+						<p>Atualmente estudando técnico em desenvolvimento de sistemas pelo Senac/RS.</p>
+					</div>
+				</div>
+			</div>
+			
+		</div>
+	</section>
+
+	<!-- Seção Serviços -->
+	<section class="shadow" id="servicos">
+		<div class="container">
+			<h1>Serviços</h1>
+
+			<div class="row">
+
+				<div class="col-lg-4 mt-4">
+					<div class="card servicesText">
+						<div class="card-body">
+							<i class="fa-solid fa-check servicesIcon"></i>
+							<h4 class="card-title mt-3">Assistente de governaça de TI</h4>
+							<p>Responsavél por toda parte administrativa do setor como: Lançamento de nota fiscal, criação de ordens de compra, responsavel pelo estoque de máquinas
+							controle de locações de máquina.</p>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-lg-4 mt-4">
+					<div class="card servicesText">
+						<div class="card-body">
+							<i class="fa-solid fa-check servicesIcon"></i>
+							<h4 class="card-title mt-3">Estágio suporte técnico - presencial.</h4>
+							<p>Responsavél pela manutenção das máquinas do hospital HPS de Porto Alegre.</p>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-lg-4 mt-4">
+					<div class="card servicesText">
+						<div class="card-body">
+							<i class="fa-solid fa-check servicesIcon"></i>
+							<h4 class="card-title mt-3">Suporte técnico </h4>
+							<p>Responsavél pela manutenção das máquinas, configuração e atendimento de clientes e colaboradores.</p>
+						</div>
+					</div>
+				</div>
+				
+			</div>
+				
+		</div>
+		
+	</section>
+
+	<!-- Seção Portfólio 4x1 -->
+	<section class="shadow" id="portfolio">
+		<div class="container mt-3">
+			<h1 class="text-center">Portfólio</h1>
+
+			<div class="row"> <!-- linha 1 -->
+				
+				<div class="col-lg-3 mt-4"> <!-- coluna 1 linha 1 -->
+					<div class="card">
+						<img class="card-img-top" src="img/estante.jpg">
+						<div class="card-body">
+							<h4 class="card-title">Estante de Livros</h4>
+							<p>Primeiro projeto com HTML e CSS, desenvolvido no curso Do Zero ao primeiro Site, ofertado pelo grupo +praTi. Neste projeto dei meus primeiros passos com o desenvolvimento Web e trabalhei com divisões, imagens, listas e tabelas.</p>
+							<div class="text-center">
+								<a href="https://github.com/D22-pixel/Estante.git" class="btn btn-success" target="_blank">Acesse aqui</a>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-lg-3 mt-4"> <!-- coluna 2 linha 1 -->
+					<div class="card">
+						<img class="card-img-top" src="img/locadoras.jpg">
+						<div class="card-body">
+							<h4 class="card-title">Locadora de Filmes</h4>
+							<p>Primeiro projeto com HTML e CSS, desenvolvido no curso Do Zero ao primeiro Site, ofertado pelo grupo +praTi. Neste projeto dei meus primeiros passos com o desenvolvimento Web e trabalhei com divisões, imagens, listas e tabelas.</p>
+							<div class="text-center">
+								<a href="https://github.com/D22-pixel/Locadora.git" class="btn btn-success" target="_blank">Acesse aqui</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				
+				<div class="col-lg-3 mt-4"> <!-- coluna 3 linha 1 -->
+					<div class="card">
+						<img class="card-img-top" src="img/card-denise.jpg">
+						<div class="card-body">
+							<h4 class="card-title">Card</h4>
+							<p>Primeiro projeto com HTML e CSS, desenvolvido no curso Do Zero ao primeiro Site, ofertado pelo grupo +praTi. Neste projeto dei meus primeiros passos com o desenvolvimento Web e trabalhei criação de botões.</p>
+							<div class="text-center">
+								<a href="https://github.com/D22-pixel/Card-Denise.git" class="btn btn-success" target="_blank">Acesse aqui</a>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-lg-3 mt-4"> <!-- coluna 4 linha 1 -->
+					<div class="card">
+						<img class="card-img-top" src="img/Pizzaria.jpg">
+						<div class="card-body">
+							<h4 class="card-title">Pizzaria</h4>
+							<p>Primeiro projeto com HTML e CSS, desenvolvido no curso Do Zero ao primeiro Site, ofertado pelo grupo +praTi. 
+							Neste projeto dei meus primeiros passos com o desenvolvimento Web e trabalhei com divisões, imagens, listas e tabelas, retorno de javascript</p>
+							<div class="text-center">
+								<a href="https://github.com/D22-pixel/Pizzaria.git" class="btn btn-success" target="_blank">Acesse aqui</a>
+							</div>
+						</div>
+					</div>
+				</div>
+
+			</div>
+
+		</div>
+	</section>
+
+
+	<!-- Seção Contatos -->
+	<section class="shadow" id="contato">
+		<div class="container mt-3 mb-3 contactContent">
+			<h1 class="text-center">Contate-me</h1>
+
+			<div class="row mt-4">
+
+				<div class="col-lg-6"><!-- mapa -->
+					<div style="max-width:100%;overflow:hidden;color:red;width:500px;height:500px;">
+						<div id="embed-ded-map-canvas" style="height:100%; width:100%;max-width:100%;">
+							<iframe style="height:100%;width:100%;border:0;"frameborder="0" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3453.7916150505043!2d-51.2210815848851!3d-30.042835681882874!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x951978567f17f28d%3A0x2c2c5272bacf4d3a!2sSenac%20Tech!5e0!3m2!1spt-BR!2sbr!4v1676508517198!5m2!1spt-BR!2sbr"></iframe>
+						</div>
+						<a class="embedded-map-code" rel="nofollow" href="https://www.bootstrapskins.com/themes" id="get-data-for-embed-map">premium bootstrap themes</a>
+						<style>#embed-ded-map-canvas img{max-width:none!important;background:none!important;font-size: inherit;font-weight:inherit;}</style>
+					</div>
+				</div>
+				<div class="col-lg-6"><!-- infos -->
+					<div class="row">
+						<div class="col-lg-6"> <!-- telefone -->
+							<div class="card servicesText">
+								<i class="fa-solid fa-phone servicesIcon mt-4"></i>
+								<h4 class="card-title mt-3">Telefone</h4>
+								<p class="mt-3 text-center">(51) 995619103</p>
+							</div>
+						</div>
+						<div class="col-lg-6"> <!-- email -->
+							<div class="card servicesText">
+								<i class="fa-solid fa-envelope servicesIcon mt-4"></i>
+								<h4 class="card-title mt-3">Email</h4>
+								<p class="mt-3 text-center">denisesaldanha@outlook.com</p>
+							</div>
+						</div>
+					</div>
+					<div class="row mt-4"> <!-- icones de redes -->
+						<div class="col-lg-3">
+							<a href="https://github.com/D22-pixel"><i class="fa-brands fa-github-alt contactIcon"></i></a>
+						</div>
+						<div class="col-lg-3">
+							<a href="https://www.linkedin.com/in/denise-saldanha-dos-santos-aa037a50/"><i class="fa-brands fa-linkedin contactIcon"></i></a>
+						</div>
+						<div class="col-lg-3">
+							<a href="https://web.whatsapp.com/send?phone=51995619103" target="_blank"><i class="fa-brands fa-whatsapp contactIcon"></i></a>
+						</div>
+					</div>
+				</div>
+
+			</div>
+		</div>	
+	</section>
+
+	<!-- Footer -->
+	<footer class="bg-light text-center text-white">
+
+		<div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);"> <!-- texto desenvolvimento -->
+			<p>Desenvolvido por Denise Saldanha &copy</p>
+		</div>
+	</footer>
+
+</body>
+</html>
+ 
