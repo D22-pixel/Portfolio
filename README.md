@@ -1,4 +1,4 @@
-# 🌐 Portfólio Pessoal
+# 🌐 Portfólio Pessoal - em produção
 
 Este repositório contém meu portfólio desenvolvido com foco em apresentação profissional, projetos autorais e habilidades técnicas. Ele foi construído utilizando:
 
